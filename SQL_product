@@ -1,0 +1,20 @@
+-- Insert data into Customers
+INSERT INTO Customers (first_name, last_name, email, city, country)
+VALUES 
+('Alice', 'Smith', 'alice@example.com', 'New York', 'USA'),
+('Bob', 'Johnson', 'bob@example.com', 'Los Angeles', 'USA'),
+('Charlie', 'Williams', 'charlie@example.com', 'Chicago', 'USA');
+
+-- Insert data into Products
+INSERT INTO Products (product_name, category, price)
+VALUES 
+('Shampoo', 'Hair Care', 12.99),
+('Conditioner', 'Hair Care', 14.99),
+('Body Lotion', 'Body Care', 8.99);
+
+-- Insert data into Sales
+INSERT INTO Sales (customer_id, product_id, sale_date, quantity, total_amount)
+VALUES 
+(1, 1, '2024-07-10', 2, 25.98),
+(2, 3, '2024-07-11', 1, 8.99),
+(3, 2, '2024-07-12', 3, 44.97);
